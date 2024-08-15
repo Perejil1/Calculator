@@ -64,7 +64,7 @@ input[type="button"]:last-child {
     }
 }
 
-/* Media Query para dispositivos medianos */
+/* Media Query para dispositivos medianos 
 @media (min-width: 576px) and (max-width: 767.98px) {
     .calculadora {
         width: 85%;
@@ -81,7 +81,7 @@ input[type="button"]:last-child {
     }
 }
 
-/* Media Query para dispositivos grandes */
+/* Media Query para dispositivos grandes 
 @media (min-width: 768px) and (max-width: 991.98px) {
     .calculadora {
         width: 70%;
@@ -97,8 +97,8 @@ input[type="button"]:last-child {
         font-size: 20px;
     }
 }
-
-/* Media Query para pantallas extra grandes */
+*/
+/* Media Query para pantallas extra grandes 
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .calculadora {
         width: 60%;
@@ -114,8 +114,8 @@ input[type="button"]:last-child {
         font-size: 22px;
     }
 }
-
-/* Media Query para monitores grandes */
+*/
+/* Media Query para monitores grandes 
 @media (min-width: 1200px) {
     .calculadora {
         width: 50%;
@@ -130,4 +130,6 @@ input[type="button"]:last-child {
     #pantalla {
         font-size: 24px;
     }
+    
 }
+*/
