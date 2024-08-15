@@ -1,6 +1,7 @@
 html, body{
-     height: 100%; 
+    height: 100%; 
 }
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
@@ -19,6 +20,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/* Screen Display */
 #pantalla {
     width: 100%;
     padding: 10px;
@@ -29,6 +31,7 @@ body {
     border-radius: 5px;
 }
 
+/* Buttons */
 input[type="button"] {
     width: 70px;
     height: 40px;
@@ -42,6 +45,7 @@ input[type="button"] {
     flex: 1 1 auto;
 }
 
+/* Hover Effect */
 input[type="button"]:hover {
     background-color: #ddd;
 }
@@ -50,9 +54,8 @@ input[type="button"]:last-child {
     margin-right: 0;
 }
 
-/* Media Query para dispositivos pequeños */
-
- @media (max-width: 575.98px) {
+/* Media Query for Small Devices (Mobile) */
+@media (max-width: 575.98px) {
     .calculadora {
         width: 90%; 
         padding: 20px;
@@ -69,11 +72,7 @@ input[type="button"]:last-child {
     }
 }
 
-
-
-
-
-/* Media Query para dispositivos medianos 
+/* Media Query for Medium Devices */
 @media (min-width: 576px) and (max-width: 767.98px) {
     .calculadora {
         width: 85%;
@@ -90,7 +89,7 @@ input[type="button"]:last-child {
     }
 }
 
-/* Media Query para dispositivos grandes 
+/* Media Query for Large Devices */
 @media (min-width: 768px) and (max-width: 991.98px) {
     .calculadora {
         width: 70%;
@@ -106,8 +105,8 @@ input[type="button"]:last-child {
         font-size: 20px;
     }
 }
-*/
-/* Media Query para pantallas extra grandes 
+
+/* Media Query for Extra Large Screens */
 @media (min-width: 992px) and (max-width: 1199.98px) {
     .calculadora {
         width: 60%;
@@ -123,8 +122,8 @@ input[type="button"]:last-child {
         font-size: 22px;
     }
 }
-*/
-/* Media Query para monitores grandes 
+
+/* Media Query for Monitors and Larger Screens */
 @media (min-width: 1200px) {
     .calculadora {
         width: 50%;
@@ -139,6 +138,4 @@ input[type="button"]:last-child {
     #pantalla {
         font-size: 24px;
     }
-    
 }
-*/
